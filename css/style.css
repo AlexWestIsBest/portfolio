@@ -1,3 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*::selection {
+    background: black;
+    color: rgb(255, 255, 255);
+}
+
 body {
-    background-color: lightgray;
+    background-color: rgb(234, 234, 234);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Helvetica Neue';
+    max-width: 60rem;
+}
+
+img {
+    padding: 0.3em;
+    padding-right: 1em;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 900;
+    letter-spacing: -3px;
+}
+
+section {
+    margin: 5em 1em;
+}
+
+.listItem {
+    display: flex;
+    align-items: flex-start;
+    line-height: 1.5em;
+    margin: 2em 0em;
+}
+
+p {
+    font-weight: 200;
 }
