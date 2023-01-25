@@ -20,6 +20,8 @@ body {
 img {
     padding: 0.3em;
     padding-right: 1em;
+    height: 64px;
+    width: 64px;
 }
 
 h2 {
@@ -30,14 +32,20 @@ h2 {
 }
 
 section {
-    margin: 5em 1em;
+    padding: 2em 1em;
+}
+section.light {
+    background-color: rgb(255, 255, 255);
+}
+section.dark {
+    background-color: rgb(236, 236, 236);
 }
 
 .listItem {
     display: flex;
     align-items: flex-start;
     line-height: 1.5em;
-    margin: 2em 0em;
+    margin: 2em 0em 0em 0em;
 }
 
 p {
