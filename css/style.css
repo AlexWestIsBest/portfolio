@@ -3,7 +3,7 @@
     padding: 0;
 }
 *::selection {
-    background: rgb(255, 0, 0);
+    background: rgb(255, 128, 0);
     color: rgb(255, 255, 255);
 }
 
@@ -19,6 +19,32 @@ body {
 .contentFrame {
     margin: 0 auto;
     max-width: 40rem;
+}
+.tooltip:hover, .tooltiptext {
+    visibility: visible;
+    transition-delay: 0;
+}
+
+
+
+section {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 100%;
+}
+section.white {
+    background-color: rgb(255, 255, 255);
+}
+section.gray {
+    background-color: rgb(246, 246, 246);
+}
+.contentRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 
@@ -39,6 +65,7 @@ p {
 }
 a {
     text-decoration: none;
+    color: blue;
 }
 a:hover {
     text-decoration: underline;
@@ -55,22 +82,9 @@ img.stickFigure {
     height: 64px;
     width: 64px;
 }
-
-
-
-section {
-    width: 100%;
-    padding: 1rem;
-}
-section.white {
-    background-color: rgb(255, 255, 255);
-}
-section.gray {
-    background-color: rgb(246, 246, 246);
-}
-.contentRow {
-    display: flex;
-    flex-direction: row;
+#highFive {
+    height: 128px;
+    width: 128px;
 }
 
 
@@ -85,20 +99,10 @@ section.gray {
 
 
 #aboutMe {
-    background-image: url("https://images.pexels.com/photos/14918481/pexels-photo-14918481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-color: rgb(82, 82, 82);
 }
 
-
-
-#contactMe {
-    margin: 1rem auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 50rem;
-}
-.flex1 {
-    flex: 1;
-    width: 15rem;
+.contactMe {
+    padding: 0 4rem;
+    width: 18rem;
 }
