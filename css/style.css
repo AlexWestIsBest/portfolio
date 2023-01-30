@@ -79,10 +79,14 @@ img.stickFigure {
     height: 64px;
     width: 64px;
 }
+img.portfolioGif {
+    /* max-width: 25vw; */
+    max-width: 300px;
+}
 #highFive {
     height: 128px;
     width: 128px;
-    padding: 0 4rem;
+    padding: 0 4vw 2rem 4vw;
 }
 
 
@@ -96,9 +100,12 @@ img.stickFigure {
 
 
 
-#aboutMe {
-    background-color: rgb(82, 82, 82);
-}
+/* #aboutMe {
+    background-image: url('/images/background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -100px;
+} */
 .contactMe {
     width: 20rem;
 }
@@ -120,11 +127,11 @@ img.stickFigure {
 }
 @media only screen and (max-width: 600px) {
     h1 {
-        font-size: 3em;
+        font-size: 12.3vw;
         white-space: nowrap;
     }
     h2 {
-        font-size: 2.5em;
+        font-size: 10vw;
         white-space: nowrap;
     }
 }
