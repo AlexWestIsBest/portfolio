@@ -54,6 +54,7 @@ h1, h2 {
 }
 h1 {
     font-size: 4em;
+    margin-bottom: -0.1em;
 }
 p {
     font-weight: 200;
@@ -126,12 +127,7 @@ img.portfolioGif {
     }
 }
 @media only screen and (max-width: 600px) {
-    h1 {
-        font-size: 12.3vw;
-        white-space: nowrap;
-    }
-    h2 {
-        font-size: 10vw;
-        white-space: nowrap;
-    }
+    h1 {font-size: 12.3vw;}
+    #jobTitle {font-size: 4vw;}
+    h2 {font-size: 10vw;}
 }
