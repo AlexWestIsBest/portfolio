@@ -71,26 +71,29 @@ a:hover {
 
 
 img {
-    padding: 1rem;
+    margin: 1rem;
     max-width: 80vw;
 }
 img.devIcons {
-    padding: 0 3vw 1rem 3vw;
+    margin: 0 2vw 1rem 2vw;
 }
+/* #latestGif {
+    width: 45vw;
+    max-width: 45vw;
+} */
 img.stickFigure {
-    padding: 0.3em;
-    padding-right: 1em;
+    margin: 0.3em;
+    margin-right: 1em;
     height: 64px;
     width: 64px;
 }
 img.portfolioGif {
-    /* max-width: 25vw; */
-    max-width: 300px;
+    max-width: 25vw;
 }
 #highFive {
     height: 128px;
     width: 128px;
-    padding: 0 4vw 2rem 4vw;
+    margin: 0 4vw 2rem 4vw;
 }
 
 
@@ -116,17 +119,24 @@ img.portfolioGif {
 
 
 @media only screen and (max-width: 950px) {
+    /* #latestGif {
+        width: 60vw;
+        max-width: 60vw;
+    } */
+    img.portfolioGif {
+        max-width: 20rem;
+    }
     .contentRow {
         align-items: flex-start;
     }
     #highFive {
-        padding: 0 30% 1rem 30%;
+        margin: 0 30% 1rem 30%;
     }
     #a {order: 2}
     #b {order: 1}
     #c {order: 3}
     .contactMe {
-        padding-bottom: 1em;
+        margin-bottom: 1em;
     }
 }
 @media only screen and (max-width: 600px) {
@@ -134,4 +144,8 @@ img.portfolioGif {
     #jobTitle {font-size: 4vw;}
     h2 {font-size: 10vw;}
     .devIcons {max-width: 35vw}
+    /* #latestGif {
+        width: 80vw;
+        max-width: 80vw;
+    } */
 }
