@@ -2,10 +2,6 @@
     margin: 0;
     padding: 0;
 }
-*::selection {
-    background: rgb(255, 128, 0);
-    color: rgb(255, 255, 255);
-}
 
 
 
@@ -63,6 +59,8 @@ p {
 a {
     text-decoration: none;
     color: blue;
+    padding: 0.2rem 0.2rem;
+    border-radius: 0.2rem;
 }
 a:hover {
     text-decoration: underline;
@@ -77,10 +75,11 @@ img {
 img.devIcons {
     margin: 0 2vw 1rem 2vw;
 }
-/* #latestGif {
-    width: 45vw;
-    max-width: 45vw;
-} */
+#latestGif {
+    /* width: 45vw;
+    max-width: 45vw; */
+    transition: 0.2s;
+}
 img.stickFigure {
     margin: 0.3em;
     margin-right: 1em;
@@ -89,6 +88,15 @@ img.stickFigure {
 }
 img.portfolioGif {
     max-width: 25vw;
+    transition: 0.2s;
+    border: 1px solid rgb(233, 233, 236)
+}
+img.portfolioGif:hover, #latestGif:hover {
+    border-color: transparent;
+    margin-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    filter: drop-shadow(0 0.5rem 0.3rem rgb(127, 127, 127));
+    transition: 0.1s;
 }
 #highFive {
     height: 128px;
@@ -107,12 +115,6 @@ img.portfolioGif {
 
 
 
-/* #aboutMe {
-    background-image: url('/images/background.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-y: -100px;
-} */
 .contactMe {
     width: 20rem;
 }
