@@ -60,6 +60,9 @@ a {
     text-decoration: none;
     color: blue;
 }
+a:hover, a:active {
+    text-decoration: underline;
+}
 b {
     font-weight: 500;
 }
@@ -89,6 +92,13 @@ img.portfolioGif {
     transition: 0.2s;
     border: 1px solid rgb(233, 233, 236)
 }
+img.portfolioGif:hover, #latestGif:hover, img.portfolioGif:active, #latestGif:active {
+    border-color: transparent;
+    margin-top: 0.25rem;
+    padding-bottom: 0.75rem;
+    filter: drop-shadow(0 0.75rem 0.3rem rgb(127, 127, 127));
+    transition: 0.1s;
+}
 #highFive {
     height: 128px;
     width: 128px;
@@ -112,18 +122,6 @@ img.portfolioGif {
 
 
 
-@media(hover: hover) and (pointer: fine) {
-    img.portfolioGif:hover, #latestGif:hover {
-        border-color: transparent;
-        margin-top: 0.25rem;
-        padding-bottom: 0.75rem;
-        filter: drop-shadow(0 0.75rem 0.3rem rgb(127, 127, 127));
-        transition: 0.1s;
-    }
-    a:hover {
-        text-decoration: underline;
-    }
-}
 @media only screen and (max-width: 950px) {
     /* #latestGif {
         width: 60vw;
