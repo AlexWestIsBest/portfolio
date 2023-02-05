@@ -183,7 +183,7 @@ img.portfolioGif:hover, #latestGif:hover {
     }
     #jobTitle {font-size: 4vw;}
     h2 {font-size: 10vw;}
-    .devIcons {max-width: 35vw}
+    img.devIcons {max-width: 7vw}
     /* #latestGif {
         width: 80vw;
         max-width: 80vw;
