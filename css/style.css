@@ -76,6 +76,7 @@ img {
 img.devIcons {
     margin: 0 0.2vw 1rem 0.2vw;
     max-width: 2rem;
+    border-radius: 8px;
 }
 #latestGif {
     /* width: 45vw;
@@ -90,16 +91,17 @@ img.stickFigure {
 }
 img.portfolioGif {
     max-width: 25vw;
+    border: 1px solid rgb(233, 233, 236);
     transition: 0.2s;
-    border: 1px solid rgb(233, 233, 236)
 }
 img.portfolioGif:hover, #latestGif:hover {
-    border-color: transparent;
-    margin-top: 0.5rem;
+    border: none;
+    /* margin-top: 0.5rem;
     padding-bottom: 0.5rem;
-    filter: drop-shadow(0 0.4rem 0.3rem rgb(127, 127, 127));
+    filter: drop-shadow(0 0.4rem 0.3rem rgb(127, 127, 127)); */
+    box-shadow: 0 0.4rem 0.6rem rgb(127, 127, 127);
+    transform: scale(1.04) translateY(-0.5rem);
     transition: 0.1s;
-    transform: scale(1.04);
 }
 #highFive {
     height: 128px;
@@ -127,15 +129,18 @@ img.portfolioGif:hover, #latestGif:hover {
 @keyframes wave {
     0% {
         transform: scale(1) translateY(0);
-        filter: drop-shadow(0 0rem 0rem rgb(127, 127, 127));
+        /* filter: drop-shadow(0 0rem 0rem rgb(127, 127, 127)); */
+        box-shadow: 0 0rem 0rem rgb(127, 127, 127);
     }
     20% {
         transform: scale(1.06) translateY(-0.5rem);
-        filter: drop-shadow(0 0.4rem 0.2rem rgb(127, 127, 127));
+        /* filter: drop-shadow(0 0.4rem 0.2rem rgb(127, 127, 127)); */
+        box-shadow: 0 0.4rem 0.4rem rgb(127, 127, 127);
     }
     60% {
         transform: scale(1) translateY(0);
-        filter: drop-shadow(0 0rem 0rem rgb(127, 127, 127));
+        /* filter: drop-shadow(0 0rem 0rem rgb(127, 127, 127)); */
+        box-shadow: 0 0rem 0rem rgb(127, 127, 127);
     }
 }
 img.devIcons:nth-of-type(1) { animation: wave 5s ease-in-out normal 0s infinite; }
@@ -163,7 +168,7 @@ img.devIcons:nth-of-type(10) { animation: wave 5s ease-in-out normal 4.5s infini
         max-width: 20rem;
     }
     .notLast {
-        padding-bottom: 2rem;
+        margin-bottom: 2rem;
     }
     .contentRow {
         align-items: flex-start;
