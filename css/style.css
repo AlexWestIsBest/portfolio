@@ -77,37 +77,6 @@ img.devIcons {
     margin: 0 0.2vw 1rem 0.2vw;
     max-width: 2rem;
 }
-@keyframes wave {
-    10% {
-        transform: scale(1);
-        margin: 0 0.2vw 1rem 0.2vw;
-        filter: drop-shadow(0 0rem 0rem rgb(127, 127, 127));
-    }
-    30% {
-        transform: scale(1.1);
-        margin: -0.5rem 0.2vw 1.5rem 0.2vw;
-        filter: drop-shadow(0 0.4rem 0.13rem rgb(127, 127, 127));
-    }
-    70% {
-        transform: scale(1);
-        margin: 0 0.2vw 1rem 0.2vw;
-        filter: drop-shadow(0 0rem 0rem rgb(127, 127, 127));
-    }
-}
-img.devIcons:nth-of-type(1) { animation: wave 5s ease-in-out normal 0s infinite; }
-img.devIcons:nth-of-type(2) { animation: wave 5s ease-in-out normal 0.5s infinite; }
-img.devIcons:nth-of-type(3) { animation: wave 5s ease-in-out normal 1s infinite; }
-img.devIcons:nth-of-type(4) { animation: wave 5s ease-in-out normal 1.5s infinite; }
-img.devIcons:nth-of-type(5) { animation: wave 5s ease-in-out normal 2s infinite; }
-img.devIcons:nth-of-type(6) { animation: wave 5s ease-in-out normal 2.5s infinite; }
-img.devIcons:nth-of-type(7) { animation: wave 5s ease-in-out normal 3s infinite; }
-img.devIcons:nth-of-type(8) { animation: wave 5s ease-in-out normal 3.5s infinite; }
-img.devIcons:nth-of-type(9) { animation: wave 5s ease-in-out normal 4s infinite; }
-img.devIcons:nth-of-type(10) { animation: wave 5s ease-in-out normal 4.5s infinite; }
-img.devIcons:hover {
-    animation: none;
-
-}
 #latestGif {
     /* width: 45vw;
     max-width: 45vw; */
@@ -155,6 +124,36 @@ img.portfolioGif:hover, #latestGif:hover {
 
 
 
+@keyframes wave {
+    0% {
+        transform: scale(1) translateY(0);
+        filter: drop-shadow(0 0rem 0rem rgb(127, 127, 127));
+    }
+    20% {
+        transform: scale(1.06) translateY(-0.5rem);
+        filter: drop-shadow(0 0.4rem 0.2rem rgb(127, 127, 127));
+    }
+    60% {
+        transform: scale(1) translateY(0);
+        filter: drop-shadow(0 0rem 0rem rgb(127, 127, 127));
+    }
+}
+img.devIcons:nth-of-type(1) { animation: wave 5s ease-in-out normal 0s infinite; }
+img.devIcons:nth-of-type(2) { animation: wave 5s ease-in-out normal 0.5s infinite; }
+img.devIcons:nth-of-type(3) { animation: wave 5s ease-in-out normal 1s infinite; }
+img.devIcons:nth-of-type(4) { animation: wave 5s ease-in-out normal 1.5s infinite; }
+img.devIcons:nth-of-type(5) { animation: wave 5s ease-in-out normal 2s infinite; }
+img.devIcons:nth-of-type(6) { animation: wave 5s ease-in-out normal 2.5s infinite; }
+img.devIcons:nth-of-type(7) { animation: wave 5s ease-in-out normal 3s infinite; }
+img.devIcons:nth-of-type(8) { animation: wave 5s ease-in-out normal 3.5s infinite; }
+img.devIcons:nth-of-type(9) { animation: wave 5s ease-in-out normal 4s infinite; }
+img.devIcons:nth-of-type(10) { animation: wave 5s ease-in-out normal 4.5s infinite; }
+/* img.devIcons:hover {
+    animation: none;
+} */
+
+
+
 @media only screen and (max-width: 950px) {
     /* #latestGif {
         width: 60vw;
@@ -162,6 +161,9 @@ img.portfolioGif:hover, #latestGif:hover {
     } */
     img.portfolioGif {
         max-width: 20rem;
+    }
+    .notLast {
+        padding-bottom: 2rem;
     }
     .contentRow {
         align-items: flex-start;
