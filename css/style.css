@@ -82,6 +82,7 @@ img.devIcons {
     /* width: 45vw;
     max-width: 45vw; */
     transition: 0.2s;
+    border-radius: 0.5em;
 }
 img.stickFigure {
     margin: 0.3em;
@@ -89,16 +90,15 @@ img.stickFigure {
     height: 64px;
     width: 64px;
 }
+/* img.stickFigure:nth-of-type(1) { background-color: blue; } */
 img.portfolioGif {
     max-width: 25vw;
     border: 1px solid rgb(233, 233, 236);
+    border-radius: 0.5em;
     transition: 0.2s;
 }
 img.portfolioGif:hover, #latestGif:hover {
     border: none;
-    /* margin-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    filter: drop-shadow(0 0.4rem 0.3rem rgb(127, 127, 127)); */
     box-shadow: 0 0.4rem 0.6rem rgb(127, 127, 127);
     transform: scale(1.04) translateY(-0.5rem);
     transition: 0.1s;
@@ -153,9 +153,6 @@ img.devIcons:nth-of-type(7) { animation: wave 5s ease-in-out normal 3s infinite;
 img.devIcons:nth-of-type(8) { animation: wave 5s ease-in-out normal 3.5s infinite; }
 img.devIcons:nth-of-type(9) { animation: wave 5s ease-in-out normal 4s infinite; }
 img.devIcons:nth-of-type(10) { animation: wave 5s ease-in-out normal 4.5s infinite; }
-/* img.devIcons:hover {
-    animation: none;
-} */
 
 
 
