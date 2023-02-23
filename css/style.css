@@ -85,12 +85,15 @@ img.devIcons {
     border-radius: 0.5em;
 }
 img.stickFigure {
-    margin: 0.3em;
+    padding: 0.4em;
+    border-radius: 0.25em;
+    margin: 0em;
     margin-right: 1em;
+    /* margin: 0.3em;
+    margin-right: 1em; */
     height: 64px;
     width: 64px;
 }
-/* img.stickFigure:nth-of-type(1) { background-color: blue; } */
 img.portfolioGif {
     max-width: 25vw;
     border: 1px solid rgb(233, 233, 236);
@@ -117,6 +120,25 @@ img.portfolioGif:hover, #latestGif:hover {
     text-align: left;
     margin: 0em 0em 2em 0em;
 }
+#experience .listItem:nth-of-type(1) .stickFigure { background-color: rgb(225, 193, 84); }
+#experience .listItem:nth-of-type(2) .stickFigure { background-color: rgb(196, 131, 119); }
+#experience .listItem:nth-of-type(3) .stickFigure { background-color: rgb(198, 97, 52); }
+#experience .listItem:nth-of-type(4) .stickFigure { background-color: rgb(171, 58, 95); }
+
+#sideQuests .listItem:nth-of-type(1) .stickFigure { background-color: rgb(225, 193, 84); }
+#sideQuests .listItem:nth-of-type(2) .stickFigure { background-color: rgb(195, 201, 90); }
+#sideQuests .listItem:nth-of-type(3) .stickFigure { background-color: rgb(127, 134, 196); }
+#sideQuests .listItem:nth-of-type(4) .stickFigure { background-color: rgb(72, 82, 172); }
+
+#experience .listItem:nth-of-type(1) .stickFigure { background-color: rgb(234, 51, 208); }
+#experience .listItem:nth-of-type(2) .stickFigure { background-color: rgb(234, 62, 147); }
+#experience .listItem:nth-of-type(3) .stickFigure { background-color: rgb(235, 73, 113); }
+#experience .listItem:nth-of-type(4) .stickFigure { background-color: rgb(236, 96, 63); }
+
+#sideQuests .listItem:nth-of-type(1) .stickFigure { background-color: rgb(73, 149, 246); }
+#sideQuests .listItem:nth-of-type(2) .stickFigure { background-color: rgb(113, 95, 242); }
+#sideQuests .listItem:nth-of-type(3) .stickFigure { background-color: rgb(154, 67, 241); }
+#sideQuests .listItem:nth-of-type(4) .stickFigure { background-color: rgb(233, 51, 240); }
 
 
 
