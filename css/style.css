@@ -20,9 +20,12 @@ section {
 }
 section.white {
     background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
 }
 section.gray {
-    background-color: rgb(244, 244, 245);
+    /* background-color: rgb(244, 244, 245); */
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
 
 
@@ -73,6 +76,10 @@ img {
     margin: 1rem;
     max-width: 80vw;
 }
+img#githubChart {
+    margin: 1rem 0rem;
+    max-width: 90vw;
+}
 img.devIcons {
     margin: 0 0.2vw 1rem 0.2vw;
     max-width: 2rem;
@@ -85,12 +92,12 @@ img.devIcons {
     border-radius: 0.5em;
 }
 img.stickFigure {
-    padding: 0.4em;
+    /* padding: 0.4em;
     border-radius: 0.25em;
     margin: 0em;
-    margin-right: 1em;
-    /* margin: 0.3em;
     margin-right: 1em; */
+    margin: 0.3em;
+    margin-right: 1em;
     height: 64px;
     width: 64px;
 }
@@ -120,25 +127,17 @@ img.portfolioGif:hover, #latestGif:hover {
     text-align: left;
     margin: 0em 0em 2em 0em;
 }
-#experience .listItem:nth-of-type(1) .stickFigure { background-color: rgb(225, 193, 84); }
-#experience .listItem:nth-of-type(2) .stickFigure { background-color: rgb(196, 131, 119); }
-#experience .listItem:nth-of-type(3) .stickFigure { background-color: rgb(198, 97, 52); }
-#experience .listItem:nth-of-type(4) .stickFigure { background-color: rgb(171, 58, 95); }
+#experience h2 { background: linear-gradient(114deg, rgb(234, 51, 208), rgb(236, 96, 63)); -webkit-background-clip: text; color: transparent; display: inline-block; }
+#experience .listItem:nth-of-type(1) h3, #experience .listItem:nth-of-type(1) a { color: rgb(234, 51, 208); }
+#experience .listItem:nth-of-type(2) h3, #experience .listItem:nth-of-type(2) a { color: rgb(234, 62, 147); }
+#experience .listItem:nth-of-type(3) h3, #experience .listItem:nth-of-type(3) a { color: rgb(235, 73, 113); }
+#experience .listItem:nth-of-type(4) h3, #experience .listItem:nth-of-type(4) a { color: rgb(236, 96, 63); }
 
-#sideQuests .listItem:nth-of-type(1) .stickFigure { background-color: rgb(225, 193, 84); }
-#sideQuests .listItem:nth-of-type(2) .stickFigure { background-color: rgb(195, 201, 90); }
-#sideQuests .listItem:nth-of-type(3) .stickFigure { background-color: rgb(127, 134, 196); }
-#sideQuests .listItem:nth-of-type(4) .stickFigure { background-color: rgb(72, 82, 172); }
-
-#experience .listItem:nth-of-type(1) .stickFigure { background-color: rgb(234, 51, 208); }
-#experience .listItem:nth-of-type(2) .stickFigure { background-color: rgb(234, 62, 147); }
-#experience .listItem:nth-of-type(3) .stickFigure { background-color: rgb(235, 73, 113); }
-#experience .listItem:nth-of-type(4) .stickFigure { background-color: rgb(236, 96, 63); }
-
-#sideQuests .listItem:nth-of-type(1) .stickFigure { background-color: rgb(73, 149, 246); }
-#sideQuests .listItem:nth-of-type(2) .stickFigure { background-color: rgb(113, 95, 242); }
-#sideQuests .listItem:nth-of-type(3) .stickFigure { background-color: rgb(154, 67, 241); }
-#sideQuests .listItem:nth-of-type(4) .stickFigure { background-color: rgb(233, 51, 240); }
+#sideQuests h2 { background: linear-gradient(114deg, rgb(73, 149, 246), rgb(233, 51, 240)); -webkit-background-clip: text; color: transparent; display: inline-block; }
+#sideQuests .listItem:nth-of-type(1) b, #sideQuests .listItem:nth-of-type(1) a { color: rgb(73, 149, 246); }
+#sideQuests .listItem:nth-of-type(2) b, #sideQuests .listItem:nth-of-type(2) a { color: rgb(113, 95, 242); }
+#sideQuests .listItem:nth-of-type(3) b, #sideQuests .listItem:nth-of-type(3) a { color: rgb(154, 67, 241); }
+#sideQuests .listItem:nth-of-type(4) b, #sideQuests .listItem:nth-of-type(4) a { color: rgb(233, 51, 240); }
 
 
 
@@ -165,7 +164,7 @@ img.portfolioGif:hover, #latestGif:hover {
         box-shadow: 0 0rem 0rem rgb(127, 127, 127);
     }
 }
-img.devIcons:nth-of-type(1) { animation: wave 5s ease-in-out normal 0s infinite; }
+/* img.devIcons:nth-of-type(1) { animation: wave 5s ease-in-out normal 0s infinite; }
 img.devIcons:nth-of-type(2) { animation: wave 5s ease-in-out normal 0.5s infinite; }
 img.devIcons:nth-of-type(3) { animation: wave 5s ease-in-out normal 1s infinite; }
 img.devIcons:nth-of-type(4) { animation: wave 5s ease-in-out normal 1.5s infinite; }
@@ -174,7 +173,7 @@ img.devIcons:nth-of-type(6) { animation: wave 5s ease-in-out normal 2.5s infinit
 img.devIcons:nth-of-type(7) { animation: wave 5s ease-in-out normal 3s infinite; }
 img.devIcons:nth-of-type(8) { animation: wave 5s ease-in-out normal 3.5s infinite; }
 img.devIcons:nth-of-type(9) { animation: wave 5s ease-in-out normal 4s infinite; }
-img.devIcons:nth-of-type(10) { animation: wave 5s ease-in-out normal 4.5s infinite; }
+img.devIcons:nth-of-type(10) { animation: wave 5s ease-in-out normal 4.5s infinite; } */
 
 
 
