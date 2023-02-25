@@ -101,13 +101,7 @@ img {
 img.devIcons {
     margin: 0 0.2vw 1rem 0.2vw;
     max-width: 2rem;
-    border-radius: 8px;
-}
-#latestGif {
-    /* width: 45vw;
-    max-width: 45vw; */
-    transition: 0.2s;
-    border-radius: 0.5em;
+    /* border-radius: 8px; */
 }
 img.stickFigure {
     /* padding: 0.4em;
@@ -118,7 +112,6 @@ img.stickFigure {
     margin-right: 1em;
     height: 64px;
     width: 64px;
-    /* box-shadow: 0 0 1rem red; */
     filter: drop-shadow(0 0 1rem) drop-shadow(0 0 1rem) drop-shadow(0 0 1rem)
 }
 img.portfolioGif {
@@ -127,7 +120,7 @@ img.portfolioGif {
     border-radius: 0.5em;
     transition: 0.2s;
 }
-img.portfolioGif:hover, #latestGif:hover {
+img.portfolioGif:hover {
     border: none;
     box-shadow: 0 0.4rem 0.6rem rgb(127, 127, 127);
     transform: scale(1.04) translateY(-0.5rem);
@@ -194,7 +187,7 @@ img.portfolioGif:hover, #latestGif:hover {
         /* box-shadow: 0 0rem 0rem rgb(127, 127, 127); */
     }
 }
-img.devIcons:nth-of-type(1) { animation: wave 5s ease-in-out normal 0s infinite; }
+/* img.devIcons:nth-of-type(1) { animation: wave 5s ease-in-out normal 0s infinite; }
 img.devIcons:nth-of-type(2) { animation: wave 5s ease-in-out normal 0.5s infinite; }
 img.devIcons:nth-of-type(3) { animation: wave 5s ease-in-out normal 1s infinite; }
 img.devIcons:nth-of-type(4) { animation: wave 5s ease-in-out normal 1.5s infinite; }
@@ -203,15 +196,11 @@ img.devIcons:nth-of-type(6) { animation: wave 5s ease-in-out normal 2.5s infinit
 img.devIcons:nth-of-type(7) { animation: wave 5s ease-in-out normal 3s infinite; }
 img.devIcons:nth-of-type(8) { animation: wave 5s ease-in-out normal 3.5s infinite; }
 img.devIcons:nth-of-type(9) { animation: wave 5s ease-in-out normal 4s infinite; }
-img.devIcons:nth-of-type(10) { animation: wave 5s ease-in-out normal 4.5s infinite; }
+img.devIcons:nth-of-type(10) { animation: wave 5s ease-in-out normal 4.5s infinite; } */
 
 
 
 @media only screen and (max-width: 950px) {
-    /* #latestGif {
-        width: 60vw;
-        max-width: 60vw;
-    } */
     img.portfolioGif {
         max-width: 20rem;
     }
@@ -232,21 +221,20 @@ img.devIcons:nth-of-type(10) { animation: wave 5s ease-in-out normal 4.5s infini
     }
 }
 @media only screen and (max-width: 600px) {
+    section.gray {
+        padding: 1rem 0.5rem;
+    }
     h1 {
-        font-size: 13.2vw;
+        font-size: 13.3vw;
         margin: 0;
     }
     #jobTitle {
-        font-size: 5vw;
+        font-size: 4.9vw;
     }
     h2 {
-        font-size: 13.2vw;
+        font-size: 13.3vw;
     }
     img.devIcons {
-        max-width: 5vw
+        max-width: 5.8vw;
     }
-    /* #latestGif {
-        width: 80vw;
-        max-width: 80vw;
-    } */
 }
