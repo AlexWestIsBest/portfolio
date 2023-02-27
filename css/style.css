@@ -90,14 +90,12 @@ b {
 
 
 
-img {
+img#profilePhoto {
+    max-width: 40rem;
+    max-height: 30rem;
+    float: right;
     margin: 1rem;
-    max-width: 80vw;
 }
-/* img#githubChart {
-    margin: 1rem 0rem;
-    max-width: 90vw;
-} */
 img.devIcons {
     margin: 0 0.2vw 1rem 0.2vw;
     max-width: 2rem;
@@ -115,9 +113,10 @@ img.stickFigure {
     filter: drop-shadow(0 0 1rem) drop-shadow(0 0 1rem) drop-shadow(0 0 1rem)
 }
 img.portfolioGif {
-    max-width: 25vw;
     border: 1px solid rgb(233, 233, 236);
     border-radius: 0.5em;
+    margin: 1rem;
+    max-width: 25vw;
     transition: 0.2s;
 }
 img.portfolioGif:hover {
@@ -142,7 +141,9 @@ img.portfolioGif:hover {
 }
 
 
-
+#aboutMe div div {
+    max-width: 25vw;
+}
 #experience h2 {
     background: linear-gradient(114deg, rgb(234, 51, 208) 5%, rgb(236, 96, 63) 95%);
     -webkit-background-clip: text;
@@ -201,6 +202,9 @@ img.devIcons:nth-of-type(10) { animation: wave 5s ease-in-out normal 4.5s infini
 
 
 @media only screen and (max-width: 950px) {
+    img#profilePhoto {
+        max-width: 60vw;
+    }
     img.portfolioGif {
         max-width: 20rem;
     }
@@ -225,14 +229,14 @@ img.devIcons:nth-of-type(10) { animation: wave 5s ease-in-out normal 4.5s infini
         padding: 1rem 0.5rem;
     }
     h1 {
-        font-size: 13.3vw;
+        font-size: 13.6vw;
         margin: 0;
     }
     #jobTitle {
-        font-size: 4.9vw;
+        font-size: 5.0vw;
     }
     h2 {
-        font-size: 13.3vw;
+        font-size: 13.6vw;
     }
     img.devIcons {
         max-width: 5.8vw;
