@@ -66,7 +66,8 @@ a:hover {
 h1 {
     font-size: 4em;
     margin-bottom: -0.1em;
-    background: linear-gradient(135deg, rgb(0, 255, 0), rgb(0, 125, 255));
+    /* background: linear-gradient(135deg, rgb(0, 255, 0), rgb(0, 125, 255)); */
+    background: linear-gradient(180deg, rgb(255, 255, 255), rgb(228, 228, 228));
     -webkit-background-clip: text;
     color: transparent;
     display: inline-block;
@@ -137,10 +138,10 @@ img#profilePhoto {
     max-width: 40rem;
     max-height: 30rem;
     float: right;
-    margin: 1rem 0rem 1rem 1rem;
+    margin: 0.3rem 0rem 1rem 1rem;
 }
-#aboutMe div div {
-    max-width: 25vw;
+#aboutMe p {
+    text-align: start;
 }
 
 
