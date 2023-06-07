@@ -89,17 +89,14 @@ h1 {
 }
 
 
-/* #recentWorks */
-img.portfolioGif {
-    border: 1px solid rgb(233, 233, 236);
-    border-radius: 0.5em;
+
+/* #latestWork */
+img.iPhone {
     margin: 1rem;
     max-width: 25vw;
     transition: 0.2s;
 }
-img.portfolioGif:hover {
-    border: none;
-    box-shadow: 0 0.4rem 0.6rem rgb(127, 127, 127);
+img.iPhone:hover {
     transform: scale(1.04) translateY(-0.5rem);
     transition: 0.1s;
 }
@@ -140,15 +137,29 @@ img.stickFigure {
 
 
 
+/* #recentWorks */
+img.portfolioGif {
+    border: 1px solid rgb(233, 233, 236);
+    border-radius: 0.5em;
+    margin: 1rem;
+    max-width: 25vw;
+    transition: 0.2s;
+}
+img.portfolioGif:hover {
+    border: none;
+    box-shadow: 0 0.4rem 0.6rem rgb(127, 127, 127);
+    transform: scale(1.04) translateY(-0.5rem);
+    transition: 0.1s;
+}
 /* #aboutMe */
-img#profilePhoto {
+/* img#profilePhoto {
     max-width: 20rem;
     float: right;
     margin: 0.3rem 0rem 1rem 1rem;
 }
 #aboutMe p {
     text-align: start;
-}
+} */
 
 
 
