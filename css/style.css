@@ -70,9 +70,7 @@ a:hover {
 h1 {
     font-size: 4em;
     margin-bottom: -0.1em;
-    /* background: linear-gradient(180deg, rgb(255, 255, 255), rgb(228, 228, 228)); */
-    /* background: linear-gradient(135deg, rgb(0, 255, 0), rgb(0, 125, 255)); */
-    background: linear-gradient(135deg, rgb(191, 53, 255) 10%, rgb(50, 101, 255) 100%);
+    background-color: white;
     -webkit-background-clip: text;
     color: transparent;
     display: inline-block;
@@ -80,9 +78,7 @@ h1 {
 #jobTitle {
     margin-bottom: 1rem;
     font-weight: 600;
-    /* background: linear-gradient(180deg, rgb(255, 255, 255), rgb(228, 228, 228)); */
-    /* background: linear-gradient(135deg, rgb(0, 255, 0), rgb(0, 125, 255)); */
-    background: linear-gradient(135deg, rgb(191, 53, 255) 10%, rgb(50, 101, 255) 100%);
+    background-color: white;
     -webkit-background-clip: text;
     color: transparent;
     display: inline-block;
@@ -93,12 +89,16 @@ h1 {
 /* #latestWork */
 img.iPhone {
     margin: 1rem;
-    max-width: 25vw;
+    max-width: 15vw;
     transition: 0.2s;
 }
 img.iPhone:hover {
     transform: scale(1.04) translateY(-0.5rem);
     transition: 0.1s;
+}
+#latestWork p {
+    margin: 0 auto;
+    max-width: 40rem;
 }
 
 
@@ -201,6 +201,11 @@ b {
 
 
 @media only screen and (max-width: 950px) {
+    /* #latestWork */
+    img.iPhone {
+        margin: 0.5rem;
+        max-width: 25vw;
+    }
     img#profilePhoto {
         max-width: 100%;
         float: none;
@@ -241,5 +246,9 @@ b {
     }
     img.devIcons {
         max-width: 5.8vw;
+    }
+    img.iPhone {
+        margin: 0.25rem;
+        max-width: 40vw;
     }
 }
