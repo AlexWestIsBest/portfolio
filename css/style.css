@@ -88,14 +88,14 @@ h1 {
 
 /* #latestWork */
 img.iPhone {
-    margin: 1rem;
-    max-width: 15vw;
-    transition: 0.2s;
+    margin: 0.5rem;
+    max-width: 18vw;
+    /* transition: 0.2s; */
 }
-img.iPhone:hover {
+/* img.iPhone:hover {
     transform: scale(1.04) translateY(-0.5rem);
     transition: 0.1s;
-}
+} */
 #latestWork p {
     margin: 0 auto;
     max-width: 40rem;
@@ -140,17 +140,20 @@ img.stickFigure {
 /* #recentWorks */
 img.portfolioGif {
     border: 1px solid rgb(233, 233, 236);
-    border-radius: 0.5em;
+    border-radius: 2em;
     margin: 1rem;
-    max-width: 25vw;
-    transition: 0.2s;
+    max-width: 35vw;
+    /* transition: 0.2s; */
 }
-img.portfolioGif:hover {
+/* img.portfolioGif:hover {
     border: none;
     box-shadow: 0 0.4rem 0.6rem rgb(127, 127, 127);
     transform: scale(1.04) translateY(-0.5rem);
     transition: 0.1s;
-}
+} */
+
+
+
 /* #aboutMe */
 /* img#profilePhoto {
     max-width: 20rem;
@@ -203,8 +206,7 @@ b {
 @media only screen and (max-width: 950px) {
     /* #latestWork */
     img.iPhone {
-        margin: 0.5rem;
-        max-width: 25vw;
+        max-width: 21vw;
     }
     img#profilePhoto {
         max-width: 100%;
@@ -213,9 +215,6 @@ b {
     }
     img.portfolioGif {
         max-width: 20rem;
-    }
-    .notLast {
-        margin-bottom: 2rem;
     }
     .contentRow {
         align-items: flex-start;
