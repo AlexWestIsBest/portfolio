@@ -86,14 +86,19 @@ h1 {
 
 
 
-/* #latestWork */
-#latestWork p {
-    margin: 0 auto;
-    max-width: 40rem;
+#video-thumbnail-row {
+    display: flex;
+    overflow-x: auto;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    gap: 10px;
+    padding: 5px; /* Bit of buffer so the mouseover expand doesn't get clipped */
+    margin: 0px -1rem;
 }
 .tikTok {
     width: 300px;
-    height: 500px;
+    /* height: 500px; */
+    max-width: 38vw;
     object-fit: cover; /* Ensures aspect ratio is maintained within the set dimensions */
     border-radius: 20px;
     transition: 0.2s;
@@ -102,6 +107,14 @@ h1 {
 img.tikTok:hover {
     transform: scale(1.04) translateY(-0.5rem);
     transition: 0.2s;
+}
+
+
+
+/* #latestWork */
+#latestWork p {
+    margin: 0 auto;
+    max-width: 40rem;
 }
 
 

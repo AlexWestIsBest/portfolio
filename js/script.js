@@ -2,10 +2,11 @@
 const videos = [
     { thumbnail: "Thumbnails/ChurnRate.jpeg", video: "Videos/ChurnRate.mp4" },
     { thumbnail: "Thumbnails/ConversionRate.jpeg", video: "Videos/ConversionRate.mp4" },
-    { thumbnail: "Thumbnails/CAC.jpeg", video: "Videos/CAC.mp4" }
+    { thumbnail: "Thumbnails/CAC.jpeg", video: "Videos/CAC.mp4" },
+    { thumbnail: "Thumbnails/CLV.jpeg", video: "Videos/CLV.mp4" }
   ];
   
-  const videoThumbnailsContainer = document.getElementById("video-thumbnails");
+  const videoThumbnailsContainer = document.getElementById("video-thumbnail-row");
   
   // Function to create a thumbnail-video pair
   videos.forEach(({ thumbnail, video }) => {
