@@ -91,9 +91,9 @@ h1 {
     overflow-x: auto;
     /* flex-wrap: wrap; */
     /* justify-content: center; */
-    gap: 10px;
+    gap: min(10px, 5%);
     padding: 5px; /* Bit of buffer so the mouseover expand doesn't get clipped */
-    margin: 0px -1rem;
+    margin: 0px -1rem -1rem -1rem;
 }
 .tikTok {
     width: 300px;
