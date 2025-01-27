@@ -91,8 +91,8 @@ h1 {
     overflow-x: auto;
     /* flex-wrap: wrap; */
     /* justify-content: center; */
-    gap: min(10px, 5%);
-    padding: 5px; /* Bit of buffer so the mouseover expand doesn't get clipped */
+    gap: min(40px, 3vw);
+    padding: 5px min(40px, 3vw); /* Bit of buffer so the mouseover expand doesn't get clipped */
     margin: 0px -1rem -1rem -1rem;
 }
 .tikTok {
@@ -102,7 +102,7 @@ h1 {
     object-fit: cover; /* Ensures aspect ratio is maintained within the set dimensions */
     border-radius: 20px;
     transition: 0.2s;
-    margin: 15px;
+    margin: 15px 0px;
 }
 img.tikTok:hover {
     transform: scale(1.04) translateY(-0.5rem);
