@@ -26,6 +26,7 @@ const videos = [
     videoElement.controls = true;
     videoElement.classList.add("tikTok"); // Add the shared class
     videoElement.style.display = "none"; // Hide video initially
+    videoElement.autoplay = true;  // Ensure autoplay is enabled
   
     // Set the video source
     const source = document.createElement("source");
@@ -37,6 +38,7 @@ const videos = [
     img.onclick = () => {
       img.style.display = "none"; // Hide thumbnail
       videoElement.style.display = "block"; // Show video
+      videoElement.play(); // Start playback immediately
     };
   
     // Append the thumbnail and video to the container
