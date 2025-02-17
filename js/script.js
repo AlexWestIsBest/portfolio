@@ -1,5 +1,9 @@
 // Define your video data
 const videos = [
+    { thumbnail: "Thumbnails/LocalGlobal.jpeg", video: "Videos/LocalGlobal.mp4" },
+    { thumbnail: "Thumbnails/MetricsAreEverything.jpeg", video: "Videos/MetricsAreEverything.mp4" },
+    { thumbnail: "Thumbnails/TimeToValue.jpeg", video: "Videos/TimeToValue.mp4" },
+    { thumbnail: "Thumbnails/StoryTime.jpeg", video: "Videos/StoryTime.mp4" },
     { thumbnail: "Thumbnails/ChurnRate.jpeg", video: "Videos/ChurnRate.mp4" },
     { thumbnail: "Thumbnails/ConversionRate.jpeg", video: "Videos/ConversionRate.mp4" },
     { thumbnail: "Thumbnails/CAC.jpeg", video: "Videos/CAC.mp4" },
