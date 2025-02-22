@@ -6,7 +6,7 @@ const videos = [
     { thumbnail: "2TikTokProduct/Thumbnails/StoryTime.jpeg", video: "2TikTokProduct/Videos/StoryTime.mp4" },
     { thumbnail: "2TikTokProduct/Thumbnails/ChurnRate.jpeg", video: "2TikTokProduct/Videos/ChurnRate.mp4" },
     { thumbnail: "2TikTokProduct/Thumbnails/ConversionRate.jpeg", video: "2TikTokProduct/Videos/ConversionRate.mp4" },
-    { thumbnail: "2TikTokProduct/Thumbnails/Thumbnails/CAC.jpeg", video: "2TikTokProduct/Videos/CAC.mp4" },
+    { thumbnail: "2TikTokProduct/Thumbnails/CAC.jpeg", video: "2TikTokProduct/Videos/CAC.mp4" },
     { thumbnail: "2TikTokProduct/Thumbnails/CLV.jpeg", video: "2TikTokProduct/Videos/CLV.mp4" }
   ];
   
