@@ -85,7 +85,7 @@ h1 {
 }
 
 
-
+/* TikTok Videos */
 #video-thumbnail-row {
     display: flex;
     overflow-x: auto;
@@ -107,6 +107,35 @@ h1 {
 img.tikTok:hover {
     transform: scale(1.04) translateY(-0.5rem);
     transition: 0.2s;
+}
+
+
+
+/* Media appearances */
+.scrollableRow {
+    display: flex;
+    overflow-x: auto;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    gap: min(40px, 3vw);
+    padding: 5px min(40px, 3vw); /* Bit of buffer so the mouseover expand doesn't get clipped */
+    margin: 0px -1rem -1rem -1rem;
+}
+.horizontalThumbnail {
+    width: 300px;
+    /* height: 500px; */
+    max-width: 38vw;
+    object-fit: cover; /* Ensures aspect ratio is maintained within the set dimensions */
+    border-radius: 20px;
+    transition: 0.2s;
+    margin: 15px 0px;
+}
+.horizontalThumbnail:hover {
+    transform: scale(1.04) translateY(-0.5rem);
+    transition: 0.2s;
+}
+.specificAppearance {
+    width: 300px;
 }
 
 

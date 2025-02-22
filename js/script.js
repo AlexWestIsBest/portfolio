@@ -1,13 +1,13 @@
 // Define your video data
 const videos = [
-    { thumbnail: "Thumbnails/LocalGlobal.jpeg", video: "Videos/LocalGlobal.mp4" },
-    { thumbnail: "Thumbnails/MetricsAreEverything.jpeg", video: "Videos/MetricsAreEverything.mp4" },
-    { thumbnail: "Thumbnails/TimeToValue.jpeg", video: "Videos/TimeToValue.mp4" },
-    { thumbnail: "Thumbnails/StoryTime.jpeg", video: "Videos/StoryTime.mp4" },
-    { thumbnail: "Thumbnails/ChurnRate.jpeg", video: "Videos/ChurnRate.mp4" },
-    { thumbnail: "Thumbnails/ConversionRate.jpeg", video: "Videos/ConversionRate.mp4" },
-    { thumbnail: "Thumbnails/CAC.jpeg", video: "Videos/CAC.mp4" },
-    { thumbnail: "Thumbnails/CLV.jpeg", video: "Videos/CLV.mp4" }
+    { thumbnail: "2TikTokProduct/Thumbnails/LocalGlobal.jpeg", video: "2TikTokProduct/Videos/LocalGlobal.mp4" },
+    { thumbnail: "2TikTokProduct/Thumbnails/MetricsAreEverything.jpeg", video: "2TikTokProduct/Videos/MetricsAreEverything.mp4" },
+    { thumbnail: "2TikTokProduct/Thumbnails/TimeToValue.jpeg", video: "2TikTokProduct/Videos/TimeToValue.mp4" },
+    { thumbnail: "2TikTokProduct/Thumbnails/StoryTime.jpeg", video: "2TikTokProduct/Videos/StoryTime.mp4" },
+    { thumbnail: "2TikTokProduct/Thumbnails/ChurnRate.jpeg", video: "2TikTokProduct/Videos/ChurnRate.mp4" },
+    { thumbnail: "2TikTokProduct/Thumbnails/ConversionRate.jpeg", video: "2TikTokProduct/Videos/ConversionRate.mp4" },
+    { thumbnail: "2TikTokProduct/Thumbnails/Thumbnails/CAC.jpeg", video: "2TikTokProduct/Videos/CAC.mp4" },
+    { thumbnail: "2TikTokProduct/Thumbnails/CLV.jpeg", video: "2TikTokProduct/Videos/CLV.mp4" }
   ];
   
   const videoThumbnailsContainer = document.getElementById("video-thumbnail-row");
