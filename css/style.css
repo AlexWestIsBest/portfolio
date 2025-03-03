@@ -197,7 +197,7 @@ img.stickFigure {
 /* #recentWorks */
 img.portfolioGif {
     border: 1px solid rgb(233, 233, 236);
-    border-radius: 2em;
+    border-radius: 20px;
     margin: 1rem;
     max-width: 35vw;
     /* transition: 0.2s; */
