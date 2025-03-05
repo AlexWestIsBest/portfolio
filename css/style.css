@@ -12,7 +12,7 @@ body {
 section {
     box-sizing: border-box;
     margin: 0 auto;
-    padding: 0rem 1rem 1rem 1rem;
+    padding: 0rem 0.5rem 1rem 0.5rem;
     width: 100%;
 }
 section.white {
@@ -93,7 +93,7 @@ h1 {
     /* justify-content: center; */
     gap: min(40px, 3vw);
     padding: 5px min(40px, 3vw); /* Bit of buffer so the mouseover expand doesn't get clipped */
-    margin: -1rem;
+    margin: -1rem -0.5rem;
     scrollbar-width: none;
 }
 .tikTok {
@@ -126,7 +126,7 @@ img.tikTok:hover {
     /* justify-content: center; */
     gap: min(40px, 3vw);
     padding: 5px min(40px, 3vw); /* Bit of buffer so the mouseover expand doesn't get clipped */
-    margin: -1rem;
+    margin: -1rem -0.5rem;
     scrollbar-width: none;
 }
 .horizontalThumbnail {
