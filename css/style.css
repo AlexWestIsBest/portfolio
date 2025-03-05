@@ -41,7 +41,7 @@ section.gray {
 
 
 h1, h2 {
-    margin: 1rem;
+    margin: 1rem 0;
     text-align: center;
     font-weight: 900;
     letter-spacing: -3px;
@@ -94,6 +94,7 @@ h1 {
     gap: min(40px, 3vw);
     padding: 5px min(40px, 3vw); /* Bit of buffer so the mouseover expand doesn't get clipped */
     margin: 0px -1rem -1rem -1rem;
+    scrollbar-width: none;
 }
 .tikTok {
     width: 300px;
@@ -126,6 +127,7 @@ img.tikTok:hover {
     gap: min(40px, 3vw);
     padding: 5px min(40px, 3vw); /* Bit of buffer so the mouseover expand doesn't get clipped */
     margin: 0px -1rem -1rem -1rem;
+    scrollbar-width: none;
 }
 .horizontalThumbnail {
     width: 400px;
@@ -279,7 +281,7 @@ b {
         /* padding: 1rem 0.5rem;  Turned off due to bug on mobile devices for horizontal scrolling */
     }
     h1 {
-        font-size: 13.6vw;
+        font-size: 13.2vw;
         margin: 0;
     }
     #jobTitle {
