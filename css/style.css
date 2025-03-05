@@ -12,7 +12,7 @@ body {
 section {
     box-sizing: border-box;
     margin: 0 auto;
-    padding: 1rem 1rem 2rem 1rem;
+    padding: 0rem 1rem 1rem 1rem;
     width: 100%;
 }
 section.white {
@@ -128,9 +128,9 @@ img.tikTok:hover {
     margin: 0px -1rem -1rem -1rem;
 }
 .horizontalThumbnail {
-    width: 300px;
+    width: 400px;
     /* height: 500px; */
-    max-width: 38vw;
+    max-width: 50vw;
     object-fit: cover; /* Ensures aspect ratio is maintained within the set dimensions */
     border-radius: 20px;
     transition: 0.2s;
@@ -141,7 +141,7 @@ img.tikTok:hover {
     transition: 0.2s;
 }
 .specificAppearance {
-    width: 300px;
+    width: 400px;
 }
 
 
@@ -294,5 +294,8 @@ b {
     img.iPhone {
         margin: 0.25rem;
         max-width: 40vw;
+    }
+    .specificAppearance {
+        width: 400px;
     }
 }
