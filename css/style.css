@@ -276,7 +276,7 @@ b {
 }
 @media only screen and (max-width: 600px) {
     section.gray {
-        padding: 1rem 0.5rem;
+        /* padding: 1rem 0.5rem;  Turned off due to bug on mobile devices for horizontal scrolling */
     }
     h1 {
         font-size: 13.6vw;
