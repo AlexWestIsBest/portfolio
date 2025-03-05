@@ -93,11 +93,11 @@ h1 {
     /* justify-content: center; */
     gap: min(40px, 3vw);
     padding: 5px min(40px, 3vw); /* Bit of buffer so the mouseover expand doesn't get clipped */
-    margin: 0px -1rem -1rem -1rem;
+    margin: -1rem;
     scrollbar-width: none;
 }
 .tikTok {
-    width: 300px;
+    width: 233px;
     /* height: 500px; */
     max-width: 38vw;
     object-fit: cover; /* Ensures aspect ratio is maintained within the set dimensions */
@@ -126,11 +126,11 @@ img.tikTok:hover {
     /* justify-content: center; */
     gap: min(40px, 3vw);
     padding: 5px min(40px, 3vw); /* Bit of buffer so the mouseover expand doesn't get clipped */
-    margin: 0px -1rem -1rem -1rem;
+    margin: -1rem;
     scrollbar-width: none;
 }
 .horizontalThumbnail {
-    width: 400px;
+    width: 300px;
     /* height: 500px; */
     max-width: 50vw;
     object-fit: cover; /* Ensures aspect ratio is maintained within the set dimensions */
@@ -143,7 +143,7 @@ img.tikTok:hover {
     transition: 0.2s;
 }
 .specificAppearance {
-    width: 400px;
+    width: 300px;
 }
 
 
@@ -163,9 +163,6 @@ img.tikTok:hover {
 
 
 /* #experience */
-#experience h2, #sideQuests h2 {
-    margin-bottom: 2rem;
-}
 #experience a, #sideQuests a {
     text-decoration: underline;
     font-weight: 300;
