@@ -150,12 +150,6 @@ img.tikTok:hover {
 
 
 
-/* #aboutMe */
-#aboutMe img {
-    width: 90%;
-}
-
-
 /* #latestWork */
 #latestWork p {
     margin: 0 auto;
@@ -201,14 +195,7 @@ img.portfolioGif {
     border-radius: 20px;
     margin: 1rem 1rem 0rem 1rem;
     max-width: 35vw;
-    /* transition: 0.2s; */
 }
-/* img.portfolioGif:hover {
-    border: none;
-    box-shadow: 0 0.4rem 0.6rem rgb(127, 127, 127);
-    transform: scale(1.04) translateY(-0.5rem);
-    transition: 0.1s;
-} */
 
 
 
@@ -241,19 +228,7 @@ b {
 
 
 
-/* #footer */
-/* img.devIcons {
-    margin: 0 0.2vw 1rem 0.2vw;
-    max-width: 2rem;
-} */
-
-
-
 @media only screen and (max-width: 950px) {
-    /* #latestWork */
-    img.iPhone {
-        max-width: 21vw;
-    }
     img#profilePhoto {
         max-width: 100%;
         float: none;
@@ -275,10 +250,8 @@ b {
         margin-bottom: 1em;
     }
 }
+
 @media only screen and (max-width: 600px) {
-    section.gray {
-        /* padding: 1rem 0.5rem;  Turned off due to bug on mobile devices for horizontal scrolling */
-    }
     h1 {
         font-size: 13.2vw;
         margin: 0;
