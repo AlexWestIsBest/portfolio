@@ -7,7 +7,11 @@ const videos = [
     { thumbnail: "2TikTokProduct/Thumbnails/ChurnRate.jpeg", video: "2TikTokProduct/Videos/ChurnRate.mp4" },
     { thumbnail: "2TikTokProduct/Thumbnails/ConversionRate.jpeg", video: "2TikTokProduct/Videos/ConversionRate.mp4" },
     { thumbnail: "2TikTokProduct/Thumbnails/CAC.jpeg", video: "2TikTokProduct/Videos/CAC.mp4" },
-    { thumbnail: "2TikTokProduct/Thumbnails/CLV.jpeg", video: "2TikTokProduct/Videos/CLV.mp4" }
+    { thumbnail: "2TikTokProduct/Thumbnails/CLV.jpeg", video: "2TikTokProduct/Videos/CLV.mp4" },
+    { thumbnail: "2TikTokProduct/Thumbnails/StoryVolumeButton.jpeg", video: "2TikTokProduct/Videos/StoryVolumeButton.mp4" },
+    { thumbnail: "2TikTokProduct/Thumbnails/FindingBetaTesters.jpeg", video: "2TikTokProduct/Videos/FindingBetaTesters.mp4" },
+    { thumbnail: "2TikTokProduct/Thumbnails/StoryStartupRoles.jpeg", video: "2TikTokProduct/Videos/StoryStartupRoles.mp4" },
+    { thumbnail: "2TikTokProduct/Thumbnails/MyBiggestTeam.jpeg", video: "2TikTokProduct/Videos/MyBiggestTeam.mp4" },
   ];
   
   const videoThumbnailsContainer = document.getElementById("video-thumbnail-row");
