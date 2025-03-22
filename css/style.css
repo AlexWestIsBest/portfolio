@@ -168,7 +168,8 @@ img.stickFigure {
     margin-right: 1em;
     height: 64px;
     width: 64px;
-    filter: drop-shadow(0 0 1rem) drop-shadow(0 0 1rem) drop-shadow(0 0 1rem)
+    filter: drop-shadow(0 0 1rem) drop-shadow(0 0 0.9rem) drop-shadow(0 0 0.8rem);
+    /* drop-shadow (in some browsers) will only stack IF they are each slightly different */
 }
 .listItem {
     display: flex;
@@ -182,10 +183,10 @@ img.stickFigure {
     color: transparent;
     display: inline-block;
 }
-.grad11 { color: rgb(234, 51, 208); }
-.grad12 { color: rgb(234, 62, 147); }
-.grad13 { color: rgb(235, 73, 113); }
-.grad14 { color: rgb(236, 96, 63); }
+.grad11 { color: rgba(234, 51, 208, 1.0); }
+.grad12 { color: rgba(234, 62, 147, 1.0); }
+.grad13 { color: rgba(235, 73, 113, 1.0); }
+.grad14 { color: rgba(236, 96, 63, 1.0); }
 
 
 
