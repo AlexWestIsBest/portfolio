@@ -12,12 +12,12 @@ const videos = [
     { thumbnail: "2TikTokProduct/Thumbnails/FindingBetaTesters.jpeg", video: "2TikTokProduct/Videos/FindingBetaTesters.mp4" },
     { thumbnail: "2TikTokProduct/Thumbnails/StoryStartupRoles.jpeg", video: "2TikTokProduct/Videos/StoryStartupRoles.mp4" },
     { thumbnail: "2TikTokProduct/Thumbnails/MyBiggestTeam.jpeg", video: "2TikTokProduct/Videos/MyBiggestTeam.mp4" },
-  ];
+];
   
-  const videoThumbnailsContainer = document.getElementById("video-thumbnail-row");
+const videoThumbnailsContainer = document.getElementById("video-thumbnail-row");
   
-  // Function to create a thumbnail-video pair
-  videos.forEach(({ thumbnail, video }) => {
+// Function to create a thumbnail-video pair
+videos.forEach(({ thumbnail, video }) => {
     // Create a container for each thumbnail-video pair
     const container = document.createElement("div");
     container.style.display = "inline-block";
