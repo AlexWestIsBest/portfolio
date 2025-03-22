@@ -1,3 +1,7 @@
+// Global variables to track the active video and its thumbnail
+let activeVideo = null;
+let activeThumbnail = null;
+
 // Define your video data
 const videos = [
     { thumbnail: "2TikTokProduct/Thumbnails/LocalGlobal.jpeg", video: "2TikTokProduct/Videos/LocalGlobal.mp4" },
@@ -16,25 +20,25 @@ const videos = [
   
 const videoThumbnailsContainer = document.getElementById("video-thumbnail-row");
   
-// Function to create a thumbnail-video pair
+// Create the thumbnail-video pairs
 videos.forEach(({ thumbnail, video }) => {
-    // Create a container for each thumbnail-video pair
+    // Container for each pair
     const container = document.createElement("div");
     container.style.display = "inline-block";
   
-    // Create the thumbnail image with the "tikTok" class
+    // Create thumbnail image
     const img = document.createElement("img");
     img.src = thumbnail;
     img.alt = "Click to play";
-    img.classList.add("tikTok"); // Add the shared class
+    img.classList.add("tikTok");
     img.style.cursor = "pointer";
   
-    // Create the video element with the same "tikTok" class, initially hidden
+    // Create video element (initially hidden)
     const videoElement = document.createElement("video");
     videoElement.controls = true;
-    videoElement.classList.add("tikTok"); // Add the shared class
+    videoElement.classList.add("tikTok");
     videoElement.style.display = "none"; // Hide video initially
-    videoElement.autoplay = true;  // Ensure autoplay is enabled
+    videoElement.autoplay = true;
   
     // Set the video source
     const source = document.createElement("source");
@@ -42,17 +46,30 @@ videos.forEach(({ thumbnail, video }) => {
     source.type = "video/mp4";
     videoElement.appendChild(source);
   
-    // When the thumbnail is clicked, hide it and show the video
+    // When the thumbnail is clicked...
     img.onclick = () => {
-      img.style.display = "none"; // Hide thumbnail
-      videoElement.style.display = "block"; // Show video
-      videoElement.play(); // Start playback immediately
+        // If there's an active video that's not this one, pause it, reset, and hide it
+        if (activeVideo && activeVideo !== videoElement) {
+            activeVideo.pause();
+            activeVideo.currentTime = 0;
+            activeVideo.style.display = "none";
+            if (activeThumbnail) {
+                activeThumbnail.style.display = "block";
+            }
+        }
+
+        // Hide the thumbnail, show the video, and start playback
+        img.style.display = "none";
+        videoElement.style.display = "block";
+        videoElement.play();
+
+        // Set the current video as active
+        activeVideo = videoElement;
+        activeThumbnail = img;
     };
   
-    // Append the thumbnail and video to the container
+    // Append thumbnail and video to the container, then add it to the page
     container.appendChild(img);
     container.appendChild(videoElement);
-  
-    // Add the container to the main thumbnails container
     videoThumbnailsContainer.appendChild(container);
 });
