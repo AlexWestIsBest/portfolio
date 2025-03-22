@@ -38,7 +38,6 @@ videos.forEach(({ thumbnail, video }) => {
     videoElement.controls = true;
     videoElement.classList.add("tikTok");
     videoElement.style.display = "none"; // Hide video initially
-    videoElement.autoplay = true;
   
     // Set the video source
     const source = document.createElement("source");
